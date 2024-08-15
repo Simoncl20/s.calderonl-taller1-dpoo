@@ -1,1 +1,30 @@
-.vscode
+# Archivos compilados
+*.class
+target/
+bin/
+
+# Archivos de configuración específicos del IDE
+.classpath
+.project
+.settings/
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos generados por Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Archivos temporales de JUnit
+TEST*.xml
+
+# Dependencias
+/lib/
+
+# Archivos de registro
+*.log
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
