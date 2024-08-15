@@ -35,7 +35,7 @@ public class Gasolinera
     private Map<String, TipoGasolina> tiposGasolina;
 
     /**
-     * Un mapa con los empleados de la gasolinea: las llaves son el nombre del empleado
+     * Un mapa con los empleados de la gasolinera: las llaves son el nombre del empleado
      */
     private Map<String, Empleado> empleados;
 

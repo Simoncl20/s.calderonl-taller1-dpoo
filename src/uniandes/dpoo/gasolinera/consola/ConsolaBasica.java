@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
-
 import uniandes.dpoo.gasolinera.logica.Empleado;
 import uniandes.dpoo.gasolinera.logica.TipoGasolina;
 
@@ -20,6 +19,7 @@ public abstract class ConsolaBasica
      * @param mensaje El mensaje con el que se solicita la información
      * @return La cadena introducida por el usuario
      */
+
     protected String pedirCadenaAlUsuario( String mensaje )
     {
         try
@@ -30,7 +30,8 @@ public abstract class ConsolaBasica
             return input;
         }
         catch( IOException e )
-        {
+        {   
+            
             System.out.println( "Error leyendo de la consola" );
         }
         return "error";
